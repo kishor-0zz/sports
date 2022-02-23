@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+@media screen and (max-width: 767px) {
+	#topbar .container .logo-icon {
+		text-align: center;
+	}
+	#topbar .container .top-menu {
+		display: none;
+	}
+	#about-me #brand {
+		display: none;
+	}
+	#slidebar .slide-item .slide-item-inner .slide-item-content {
+		position: absolute;
+	    top: 50%;
+	    transform: translate(-50%,-50%);
+	    left: 50%;
+	    z-index: 3;
+	}
+	#slidebar .slide-item .slide-item-inner .slide-item-content .item-content-inner .slide-item-title h2 {
+		font-size: 40px;
+	}
+	#slidebar .slide-item .slide-item-inner .slide-item-content .item-content-inner .slide-item-down span {
+		line-height: 50px;
+	}
+	#slidebar .slide-item .slide-item-inner .slide-item-img .img2 img {
+		display: none;
+	}
+	#slidebar .slide-item .slide-item-inner .slide-item-img img {
+		height: 700px;
+	}
+	#slidebar .slide-item .slide-item-inner .slide-item-content .slide-item-icon a {
+		bottom: -120px;
+	}
+	#slidebar .slide-item .slide-item-inner .slide-item-content .item-content-inner .slide-item-up h6:after {
+	    width: 50%;
+	    bottom: -10px;
+	}
+	#slidebar .slide-item .slide-item-inner .slide-item-content .item-content-inner .slide-item-down span:after {
+		width: 50%;
+	}
+	section {
+		padding: 50px 0 !important;
+	}
+	.section .section-inner .section-top h2 {
+		font-size: 22px;
+		letter-spacing: 0;
+	}
+	#about-me .about-up .about-up-title span h2 {
+		font-size: 22px;
+		letter-spacing: 0;
+	}
+	#about-me .about-left {
+		margin-bottom: 30px;
+	}
+	#about-me .section-logo {
+		display: none;
+	}
+	#about-me .about-down .about-down-inner .about-down1 .about-item1 {
+		display: unset;
+	}
+	#about-me .about-down .about-down-inner .about-down1 .about-item2 {
+		display: unset;
+	}
+	#about-me .about-down .about-down-inner .about-down1 .about-item2 .item4 {
+		margin-left: 0;
+	}
+	#skill .skill-left P:after {
+		left: -3%;
+    	top: 14px;
+	}
+	#skill .skill-left P {
+		font-size: 22px;
+	}
+	#skill .skill-right .bar1 span, #skill .skill-right .bar2 span {
+		font-size: 24px;
+    	line-height: 40px;
+	}
+	#Resume .my-resume {
+		display: none;
+	}
+	#service .my-service {
+		display: none;
+	}
+	#Portfolio .my-portfolio {
+		display: none;
+	}
+	#Testimonials .my-Testimonials {
+		display: none;
+	}
+	#blog .my-blog {
+		display: none;
+	}
+	#blog .blog-box .blog-box-inner .blog-box-content .box-text-bottom {
+		display: unset;
+
+	}
+	#blog .blog-box .blog-box-inner .blog-box-content .box-text-bottom .box-text-one {
+		display: unset;
+	}
+	#blog .blog-box .blog-box-inner .blog-box-content .box-text-bottom .box-text-one img {
+		margin: 0 auto;
+	}
+	#blog .blog-box .blog-box-inner .blog-box-content .box-text-bottom .box-text-one span, #blog .blog-box .blog-box-inner .blog-box-content .box-text-bottom .box-text-two span {
+		display: block;
+		text-align: center;
+	}
+	#blog .blog-box .blog-box-inner .blog-box-content .box-title {
+		margin-bottom: 10px;
+	}
+	#blog .owl-carousel .owl-dots {
+		margin-top: 0;
+	}
+	#Contact .main-contact .input-one input.your-email, #Contact .main-contact .input-one input.your-name {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#Contact .main-contact .input-one {
+		display: unset;
+	}
+	#Contact .my-contact {
+		display: none;
+	}
+	#Contact .main-contact .imput-two .contact-dropdown .dropdown-menu {
+		left: -140%;
+	}
+	#Contact .main-contact .project-requri-ments .project-attach ul li a {
+		font-size: 14px;
+	}
+	#Contact .main-contact .project-requri-ments .product-title h2 {
+		margin: 20px 0;
+		font-size: 22px;
+	}
+	#Contact .main-contact .project-requri-ments .project-btn {
+		text-align: center;
+	}
+	#Address .Address-left {
+		display: unset;
+	}
+	#Address .Address-left .Address-icon {
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	#Address .Address-left .Address-content {
+		text-align: center;
+	}
+	#Contact .main-contact .project-requri-ments .project-btn a {
+		font-size: 10px;
+	}
+	#about-me .about-up .about-up-title span:after {
+		top: 50%;
+	}
+	#Contact .main-contact .imput-two .contact-dropdown .dropdown-menu {
+		transform: translate3d(180px,32px,0)!important;
+
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	
+}

@@ -1,0 +1,238 @@
+body {
+	background-color: #000;
+	color: #fff;
+}
+$borderColor: #999;
+.header-section {
+	background: #000;
+	border: 1px solid #ecedef;
+
+	.header-menu ul li .post {
+		color: #fff;
+		border: 1px solid #fff;
+		&:hover {
+			background: #fff;
+			color: #000;
+		}
+	}
+	.header-menu ul li a {
+		color: #fff;
+	}
+}
+
+.far {
+	color: #fff;
+}
+.input-group {
+	border: 1px solid #000;
+	input {
+		background: #000;
+		border: 1px solid #999;
+		color: #fff;
+		&:focus {
+			background: #000;
+			border: 1px solid #fff;
+			color: #fff;
+		}
+	}
+}
+
+.news-feed-menu {
+	background-color: #000;
+}
+.news-feed-section ul li a {
+	color: #fff;
+}
+.news-feed-section ul li .active,
+.news-feed-section ul li:hover a {
+	color: #bbb;
+}
+.news-feed-section {
+	background: #000;
+}
+.news-feed-section .news {
+	background: #000;
+}
+.news-feed-section input {
+	background-color: #000;
+	color: #fff;
+}
+:-ms-input-placeholder {
+	color: #ddd;
+}
+::-ms-input-placeholder {
+	color: #ddd;
+}
+::placeholder {
+	color: #ddd;
+}
+.news-feed-section .post-publish {
+	background: #000000;
+	border: 1px solid $borderColor;
+}
+.post-publish-top .make-post,
+.post-publish-top .job-post {
+	color: #ffffff;
+}
+.post-publish-top .photo-video {
+	color: #fff;
+}
+.post-publish-bottom a {
+	color: #ffffff;
+}
+.news-feed-section .contacts {
+	background: #000000;
+}
+
+.news-feed-section {
+	.col-lg-3 {
+		border-left: 1px solid $borderColor;
+	}
+	.people-stories {
+		background: #000000;
+		border: 1px solid $borderColor;
+	}
+	.heading h4 {
+		color: #fff;
+	}
+}
+.posts {
+	background: #000000;
+	border: 1px solid #999;
+}
+.post-heading h4 .bold {
+	color: #fff;
+}
+.post-content p {
+	color: #ddd;
+}
+.post-reaction .post-react {
+	.react {
+		color: #fff;
+	}
+	a {
+		color: #fff;
+	}
+}
+.post-reaction .react-given label,
+.post-reaction .react-given a {
+	color: #ece9e9;
+}
+.emojionearea,
+.emojionearea.form-control {
+	background-color: #000;
+}
+.post-comment i {
+	color: #ffffff;
+}
+.suggested-group {
+	background: #000000;
+	border: 1px solid #999;
+	h5 {
+		color: #fff;
+	}
+}
+.all-profile {
+	background-color: #000000;
+	.input-group {
+		border: 1px solid #eaeaea;
+		input {
+			border: none;
+			color: #fff;
+		}
+		.input-group-text {
+			color: #fff;
+		}
+		:-ms-input-placeholder {
+			color: #ddd;
+		}
+		::-ms-input-placeholder {
+			color: #ddd;
+		}
+		::placeholder {
+			color: #ddd;
+		}
+	}
+	.text-dark {
+		color: #ffffff !important;
+	}
+	.message-person .time-span {
+		color: #aaa;
+	}
+}
+.message-warpper {
+	background-color: #000000;
+	.text-dark {
+		color: #ffffff !important;
+	}
+	.message-header {
+		border-bottom: 1px solid $borderColor;
+	}
+	.message-body .message-content-sender {
+		background-color: #1d1d1d;
+	}
+	.message-body .message-content-receiver {
+		background-color: #1d1d1d;
+	}
+	.msg-bottom-box {
+		background-color: #000;
+	}
+	.msg-bottom-box .items {
+		background-color: #000;
+	}
+	.msg-bottom-box .items ul li {
+		color: #fff;
+		border-bottom: 1px solid $borderColor;
+	}
+}
+.profile-detials {
+	background-color: #000000;
+	.text-dark {
+		color: #ffffff !important;
+	}
+	.profile-link a {
+		color: #bdbcbc;
+	}
+	.skill h3 {
+		color: #fff;
+	}
+	.attachment h3 {
+		color: #fff;
+	}
+	ul li a {
+		color: #000;
+	}
+}
+
+.bottom-box {
+	.text-dark {
+		color: #ffffff !important;
+	}
+}
+.header-menu .menu-options .options {
+	background: #000000;
+	border: 1px solid #ddd;
+}
+::-webkit-scrollbar-track {
+	background: #fffefe14;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #c5c5c56b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(255, 255, 255);
+}
+.header-section .profile-options {
+	border: 1px solid #666;
+	background: #000;
+}
+.header-section .profile-show:before {
+	border-bottom: 20px solid #666;
+}
+.header-section .profile-show:after {
+	border-bottom: 20px solid #666;
+}

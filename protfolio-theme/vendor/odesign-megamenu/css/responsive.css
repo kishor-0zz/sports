@@ -1,0 +1,53 @@
+@media only screen and (max-width: 991px) {
+	#odesign-megamenu .main-menu {
+		background: #130947;
+	}
+	#odesign-megamenu .main-menu ul li {
+	    width: 100%;
+	    display: block;
+	    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+	}
+	#odesign-megamenu .main-menu ul li a {
+		color: #ffffff;
+	}
+	#odesign-megamenu .main-menu ul li a:hover {
+		color: #ffffff;
+	}
+	#odesign-megamenu .main-menu ul li:hover a {
+		/*background: #281878;*/
+	}
+	#odesign-megamenu .main-menu ul li li a {
+		background: #241669;
+	}
+	#odesign-megamenu .main-menu ul li li:hover a {
+		background: #4f87fb;
+	}
+	#odesign-megamenu .main-menu ul li.active > a {
+		background: #281878;
+	}
+	#odesign-megamenu .main-menu ul li .dropdown-inner {
+    	width: 100%;
+	}
+	#odesign-megamenu .main-menu ul li .dropdown-inner.mega-col-1,
+	#odesign-megamenu .main-menu ul li .dropdown-inner.mega-col-2,
+	#odesign-megamenu .main-menu ul li .dropdown-inner.mega-col-3,
+	#odesign-megamenu .main-menu ul li .dropdown-inner.mega-col-4,
+	#odesign-megamenu .main-menu ul li .dropdown-inner.mega-col-5,
+	#odesign-megamenu .main-menu ul li .dropdown-inner.mega-col-6 {
+		width: 100%;
+	}
+	#odesign-megamenu .main-menu ul li .dropdown-inner {
+		position: unset;
+		display: none;
+		opacity: 1;
+		visibility: visible;
+	}
+	#odesign-megamenu .main-menu ul li.menu-fluid-layout {
+		position: relative;
+	}
+}
+@media only screen and (min-width: 992px) {
+	#odesign-megamenu .main-menu ul.navbar > li > a > i {
+		display: inline-block;
+	}
+}
